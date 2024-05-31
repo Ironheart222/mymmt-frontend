@@ -1,0 +1,45 @@
+.img-invert {
+    filter: invert(1) !important;
+}
+
+.video-label {
+    font-size: 14px !important;
+    font-weight: 700 !important;
+    margin-left: 4px !important;
+    margin-top: 4px !important;
+}
+
+.vault-header{
+    font-weight: 700 !important;
+    letter-spacing: 0px !important;
+    color: #040404 !important;
+    // padding-left: 192px !important;
+    @media screen and (max-width:991px) {
+        padding-left: 0px !important;
+    }
+    @media screen and (max-width:768px) {
+        text-align: left !important;
+    }
+    @media screen and (max-width:599px) {
+        text-align: center !important;
+    }
+}
+
+.vault-search{
+    justify-content: center !important;
+}
+
+.search-wrapper{
+    flex-basis: auto !important;
+}
+
+.slideOut {
+    -webkit-animation: Out 1s 1 !important;
+    -webkit-animation-direction: normal !important;
+    animation: Out 1s 1 !important;
+    animation-direction: normal !important;
+    @keyframes Out {
+        0%  {left: -200px !important;}
+        25%  {left: 0px !important;}
+    }
+  }

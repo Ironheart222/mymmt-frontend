@@ -1,0 +1,125 @@
+
+/* login css */
+.logo{
+    width: 170px;
+    height: 70px;
+    /* margin-bottom: 100px; */
+  }
+  .welcom-text{
+    margin-bottom: 15px;
+  }
+  .second-header{
+    color: #fff;
+    font: normal normal bold 32px/48px Poppins;
+    margin-bottom: 27px;
+  }
+  .forgot-link{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .form-element{
+    width: 100%;
+    margin-left: 0;
+    /* max-width: 770px; */
+  }
+  .register-link{
+    background-color: #99FD31;
+    cursor: pointer;
+  }
+  .login-form-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+
+  /* register styles */
+
+  .countryCode{
+    border: 0;
+  }
+  .mobile-number > div{
+    padding-left: 0;
+  }
+  .countryCode fieldset{
+    border: 0;
+  }
+  .register-container{
+    max-width: 460px;
+  }
+  input::-webkit-outer-spin-button,  /* hide arrows */
+  input::-webkit-inner-spin-button {
+    -webkit-appearance: none !important;
+    margin: 0 !important;
+  }
+  input[type=number] {  /* hide arrows */
+    -moz-appearance: textfield !important;
+  }
+  
+
+
+/* Select profile  */
+.container-box{
+  width: 100%;
+}
+.profile-container{
+  max-width: 460px;
+  padding: 0;
+}
+.avatar-container{
+  justify-content: space-between;
+}
+@media screen and (max-width:767px) {
+  .avatar-container {
+    justify-content: center;
+  }
+}
+.inner-avatar-container{
+  flex: 0 0 170px;
+  text-align: center;
+}
+
+
+
+.user-avatar{
+  width: 170px;
+  height: 170px;
+  overflow: visible;
+}
+.user-avatar img{
+  border-radius: 50%;
+}
+.user-profile-selected{
+  box-shadow: 0px 13px 26px #00000029;
+  border: 7px solid #9CFB46;
+}
+.user-profile-selected::before
+{
+  position: absolute;
+  content: "";
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: #9cfb46;
+  right: 4px;
+  top: -3px;
+}
+
+.user-profile-selected::after{
+  display: inline-block;
+  transform: rotate(42deg);
+  height: 14px;
+  width: 8px;
+  margin-left: 60%;
+  border-bottom: 3px solid #000000;
+  border-right: 3px solid #000000;
+  position: absolute;
+  content: "";
+  right: 19px;
+  top: 8px;
+}
+.user-avatar .text-label{
+  text-align: center;
+}
